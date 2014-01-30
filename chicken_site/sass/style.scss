@@ -1,0 +1,204 @@
+//@mixin flexBox {
+//	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+//	display: -moz-box;      /* OLD: Firefox (buggy) */
+//	display: -ms-flexbox;   /* MID: IE 10 */
+//	display: -webkit-flex;  /* NEW, Chrome 21+ */
+//	display: flex;          /* NEW: Opera 12.1, Firefox 22+ */
+//}
+
+/*
+************************
+VARIABLES
+************************
+*/
+$font_col: white;
+$box_col: #74CFD4;
+$hover: #D474C6;
+
+/*
+************************
+MIXINS
+************************
+*/
+@mixin block{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+@mixin panel{
+	background: $box_col;
+	min-height:415px;
+	position: relative;
+	list-style: none;
+}
+@mixin head_foot{
+	width:100%;
+	display: inline-block;
+	background: $box_col;
+}
+
+/*
+************************
+HOME PAGE
+************************
+*/
+body{
+	width:90%;
+	background-color: #FBFF94;
+	font-family: arial;
+	@include block;
+}
+.navbar{
+		@include head_foot;
+	li{
+		display: inline;
+		float:right;
+		margin:20px;
+		margin-top: 0;
+
+		a{
+			border-left: 1px solid $font_col;
+			padding-left: 5px;
+			color:$font_col;
+			text-decoration: none;
+
+			&:hover{
+				color: $hover;
+				font-style: italic;
+			}
+		}
+	}
+	h1{
+		margin: 20px;
+		float:left;
+		color: $font_col;
+	}
+	h2{
+		margin:0;
+	}
+}
+.image{
+	background: url(http://www.raising-happy-chickens.com/images/all-about-chickens.jpg);
+	@include block;
+	width:80%;
+	height:200px;
+
+	h2{
+		position: relative;
+		margin: 0;
+		top:160px;
+		background: rgba(116,207,212, .5);
+		padding-left: 10px;
+		color: $font_col;
+	}
+}
+.home_row{
+	@include block;
+	width:80%;
+	padding-left:0;
+	color:$font_col;
+}
+.home_info{
+	float:left;
+	width: 66%;
+	@include panel;
+
+	a{
+		text-decoration: none;
+		font-style: italic;
+		color:$font_col;
+
+		&:hover{
+				color: $hover;
+			}
+	}
+
+	h1{
+		padding:0 10px;
+		text-align: center;
+	}
+	p{
+		font-size: 20px;
+		padding: 0 10px;
+		}
+	}
+	ul{
+		padding-bottom: 10px;
+	}
+	.list_title{
+		margin-bottom: 0;
+		text-decoration: none;
+	}
+
+.social_panel{
+	float:right;
+	width:33%;
+	@include panel;
+
+
+	ul{
+		padding-left: 0;
+	}
+
+	li {
+		list-style: none;
+		padding-left: 0;
+		padding: 23px 0;
+		margin: 0;
+		}
+	i{
+		color: $font_col;
+		font-size: 25px;
+		margin: 0 20px;
+
+		&:hover{
+			color: $hover;
+		}
+	}
+	a{
+		text-decoration: none;
+		font-size: 20px;
+		color: $font_col;
+	}
+		&:hover{
+			border: 1px solid $font_col;
+		}
+	}
+.footer{
+	@include head_foot;
+	margin-top: 10px;
+
+	p{
+		color: $font_col;
+		margin: 10px;
+	}
+}
+
+/*
+************************
+ABOUT US PAGE
+************************
+*/
+.testimonial{
+	width:49%;
+	float:right;
+	@include panel;
+}
+.video{
+	width:50%;
+	float:left;
+	@include panel;
+}
+.witness{
+	padding-left: 0;
+	list-style: none;
+}
+.company_info{
+	width:80%;
+	@include block;
+	background: $box_col;
+}
+.about_row{
+	width:80%;
+	@include block;
+}

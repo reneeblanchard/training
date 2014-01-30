@@ -1,0 +1,232 @@
+/*
+************************
+VARIABLES
+************************
+*/
+/*
+************************
+MIXINS
+************************
+*/
+/*
+************************
+HOME PAGE
+************************
+*/
+/* line 45, ../sass/style.scss */
+body {
+  width: 90%;
+  background-color: #FBFF94;
+  font-family: arial;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 51, ../sass/style.scss */
+.navbar {
+  width: 100%;
+  display: inline-block;
+  background: #74cfd4;
+}
+/* line 53, ../sass/style.scss */
+.navbar li {
+  display: inline;
+  float: right;
+  margin: 20px;
+  margin-top: 0;
+}
+/* line 59, ../sass/style.scss */
+.navbar li a {
+  border-left: 1px solid white;
+  padding-left: 5px;
+  color: white;
+  text-decoration: none;
+}
+/* line 65, ../sass/style.scss */
+.navbar li a:hover {
+  color: #d474c6;
+  font-style: italic;
+}
+/* line 71, ../sass/style.scss */
+.navbar h1 {
+  margin: 20px;
+  float: left;
+  color: white;
+}
+/* line 76, ../sass/style.scss */
+.navbar h2 {
+  margin: 0;
+}
+
+/* line 80, ../sass/style.scss */
+.image {
+  background: url(http://www.raising-happy-chickens.com/images/all-about-chickens.jpg);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  height: 200px;
+}
+/* line 86, ../sass/style.scss */
+.image h2 {
+  position: relative;
+  margin: 0;
+  top: 160px;
+  background: rgba(116, 207, 212, 0.5);
+  padding-left: 10px;
+  color: white;
+}
+
+/* line 95, ../sass/style.scss */
+.home_row {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  padding-left: 0;
+  color: white;
+}
+
+/* line 101, ../sass/style.scss */
+.home_info {
+  float: left;
+  width: 66%;
+  background: #74cfd4;
+  min-height: 415px;
+  position: relative;
+  list-style: none;
+}
+/* line 106, ../sass/style.scss */
+.home_info a {
+  text-decoration: none;
+  font-style: italic;
+  color: white;
+}
+/* line 111, ../sass/style.scss */
+.home_info a:hover {
+  color: #d474c6;
+}
+/* line 116, ../sass/style.scss */
+.home_info h1 {
+  padding: 0 10px;
+  text-align: center;
+}
+/* line 120, ../sass/style.scss */
+.home_info p {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+/* line 125, ../sass/style.scss */
+ul {
+  padding-bottom: 10px;
+}
+
+/* line 128, ../sass/style.scss */
+.list_title {
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+/* line 133, ../sass/style.scss */
+.social_panel {
+  float: right;
+  width: 33%;
+  background: #74cfd4;
+  min-height: 415px;
+  position: relative;
+  list-style: none;
+}
+/* line 139, ../sass/style.scss */
+.social_panel ul {
+  padding-left: 0;
+}
+/* line 143, ../sass/style.scss */
+.social_panel li {
+  list-style: none;
+  padding-left: 0;
+  padding: 23px 0;
+  margin: 0;
+}
+/* line 149, ../sass/style.scss */
+.social_panel i {
+  color: white;
+  font-size: 25px;
+  margin: 0 20px;
+}
+/* line 154, ../sass/style.scss */
+.social_panel i:hover {
+  color: #d474c6;
+}
+/* line 158, ../sass/style.scss */
+.social_panel a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+/* line 163, ../sass/style.scss */
+.social_panel:hover {
+  border: 1px solid white;
+}
+
+/* line 167, ../sass/style.scss */
+.footer {
+  width: 100%;
+  display: inline-block;
+  background: #74cfd4;
+  margin-top: 10px;
+}
+/* line 171, ../sass/style.scss */
+.footer p {
+  color: white;
+  margin: 10px;
+}
+
+/*
+************************
+ABOUT US PAGE
+************************
+*/
+/* line 182, ../sass/style.scss */
+.testimonial {
+  width: 49%;
+  float: right;
+  background: #74cfd4;
+  min-height: 415px;
+  position: relative;
+  list-style: none;
+}
+
+/* line 187, ../sass/style.scss */
+.video {
+  width: 50%;
+  float: left;
+  background: #74cfd4;
+  min-height: 415px;
+  position: relative;
+  list-style: none;
+}
+
+/* line 192, ../sass/style.scss */
+.witness {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* line 196, ../sass/style.scss */
+.company_info {
+  width: 80%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background: #74cfd4;
+}
+
+/* line 201, ../sass/style.scss */
+.about_row {
+  width: 80%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
