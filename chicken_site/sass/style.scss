@@ -22,6 +22,15 @@ MIXINS
 */
 
 @mixin social{
+	// try to avoid targeting specific elements like ul>li>i>a etc. 
+	//this is for the social list so the ul could change to .social-list
+	// the li could be .social-list--item
+
+	//look at bem naming convention http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/
+
+	// follow this throughout your site with the markup and css, makes it a lot easier to read and figure out what 
+	// it is your styling
+	
 	ul{
 		padding-left: 0;
 	}
@@ -30,7 +39,7 @@ MIXINS
 		list-style: none;
 		padding-left: 0;
 		margin: 0;
-		}
+	}
 	i{
 		font-size: 25px;
 		margin: 0 20px;
@@ -50,6 +59,23 @@ MIXINS
 	margin-right: auto;
 	margin-left: auto;
 }
+
+// for the panel styling by using a mixin you can add arguments allowing for better reuse-ability 
+// for example
+
+
+// @mixin panel($bg, $min-height, $position, $list-style) {
+// 	background: $bg;
+// 	min-height: $min-height;
+// 	position: $position;
+// 	list-style: $list-style;
+// }
+
+// then when including the mixin you can use it like this:
+
+// @include panel($box_col, 415px, relative, none);
+
+
 @mixin panel{
 	background: $box_col;
 	min-height:415px;
@@ -75,22 +101,22 @@ body{
 	color: $font_col;
 }
 .navbar{
-		@include head_foot;
+	@include head_foot;
 	li{
 		display: inline;
 		float:right;
 		margin:20px;
 		margin-top: 0;
 
-	.home_link{
-		color:$hover;
-	}
-	.about_link{
-		color:$hover;
-	}
-	.contact_link{
-		color:$hover;
-	}
+		.home_link{
+			color:$hover;
+		}
+		.about_link{
+			color:$hover;
+		}
+		.contact_link{
+			color:$hover;
+		}
 
 		a{
 			border-left: 1px solid $font_col;
@@ -148,8 +174,8 @@ HOME PAGE
 		color:$font_col;
 
 		&:hover{
-				color: $hover;
-			}
+			color: $hover;
+		}
 	}
 
 	h1{
@@ -159,15 +185,15 @@ HOME PAGE
 	p{
 		font-size: 20px;
 		padding: 0 10px;
-		}
 	}
-	ul{
-		padding-bottom: 10px;
-	}
-	.list_title{
-		margin-bottom: 0;
-		text-decoration: none;
-	}
+}
+ul{
+	padding-bottom: 10px;
+}
+.list_title{
+	margin-bottom: 0;
+	text-decoration: none;
+}
 
 .social_panel{
 	float:right;
@@ -177,7 +203,7 @@ HOME PAGE
 
 	li {
 		padding: 23px 0;
-		}
+	}
 }
 .footer{
 	@include head_foot;
@@ -247,8 +273,8 @@ ABOUT US PAGE
 		font-style: italic;
 
 		&:hover{
-				color: $hover;
-			}
+			color: $hover;
+		}
 	}
 }
 /*
@@ -273,12 +299,12 @@ CONTACT US PAGE
 	@include panel;
 
 	.text{
-	padding-left: 10px;
+		padding-left: 10px;
 
-	h2{
-		margin-top: 15px;
-		text-decoration: underline;
-	}
+		h2{
+			margin-top: 15px;
+			text-decoration: underline;
+		}
 	}
 	p{
 		font-size: 18px;
@@ -318,3 +344,5 @@ CONTACT US PAGE
 		}
 	}
 }
+
+// also try to divide up your scss where you import your scss files into one main file which will include all stying then you can have different files for the different sections of the sites your working on, for example a _variables.scss file _contact.scss, _homepage.scss and so on

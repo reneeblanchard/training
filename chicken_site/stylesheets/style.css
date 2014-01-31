@@ -13,7 +13,7 @@ MIXINS
 NAV AND BODY
 ************************
 */
-/* line 70, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 body {
   width: 90%;
   background-color: #FBFF94;
@@ -24,49 +24,49 @@ body {
   color: white;
 }
 
-/* line 77, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 .navbar {
   width: 100%;
   display: inline-block;
   background: #74cfd4;
 }
-/* line 79, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .navbar li {
   display: inline;
   float: right;
   margin: 20px;
   margin-top: 0;
 }
-/* line 85, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 .navbar li .home_link {
   color: #d474c6;
 }
-/* line 88, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 .navbar li .about_link {
   color: #d474c6;
 }
-/* line 91, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .navbar li .contact_link {
   color: #d474c6;
 }
-/* line 95, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .navbar li a {
   border-left: 1px solid white;
   padding-left: 5px;
   color: white;
   text-decoration: none;
 }
-/* line 101, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 .navbar li a:hover {
   color: #d474c6;
   font-style: italic;
 }
-/* line 107, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .navbar h1 {
   margin: 20px;
   float: left;
 }
-/* line 111, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .navbar h2 {
   margin: 0;
 }
@@ -76,7 +76,7 @@ body {
 HOME PAGE
 ************************
 */
-/* line 121, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .image {
   background: url(http://www.raising-happy-chickens.com/images/all-about-chickens.jpg);
   display: block;
@@ -85,7 +85,7 @@ HOME PAGE
   width: 80%;
   height: 200px;
 }
-/* line 127, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 .image h2 {
   position: relative;
   margin: 0;
@@ -94,7 +94,7 @@ HOME PAGE
   padding-left: 10px;
 }
 
-/* line 135, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 .home_row {
   display: block;
   margin-right: auto;
@@ -103,7 +103,7 @@ HOME PAGE
   padding-left: 0;
 }
 
-/* line 140, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 .home_info {
   float: left;
   width: 66%;
@@ -112,39 +112,39 @@ HOME PAGE
   position: relative;
   list-style: none;
 }
-/* line 145, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .home_info a {
   text-decoration: none;
   font-style: italic;
   color: white;
 }
-/* line 150, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .home_info a:hover {
   color: #d474c6;
 }
-/* line 155, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 .home_info h1 {
   padding: 0 10px;
   text-align: center;
 }
-/* line 159, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 .home_info p {
   font-size: 20px;
   padding: 0 10px;
 }
 
-/* line 164, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 ul {
   padding-bottom: 10px;
 }
 
-/* line 167, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .list_title {
   margin-bottom: 0;
   text-decoration: none;
 }
 
-/* line 172, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .social_panel {
   float: right;
   width: 33%;
@@ -153,44 +153,44 @@ ul {
   position: relative;
   list-style: none;
 }
-/* line 25, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .social_panel ul {
   padding-left: 0;
 }
-/* line 29, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 .social_panel li {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
-/* line 34, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .social_panel i {
   font-size: 25px;
   margin: 0 20px;
 }
-/* line 38, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .social_panel i:hover {
   color: #d474c6;
 }
-/* line 42, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .social_panel a {
   text-decoration: none;
   font-size: 20px;
   color: white;
 }
-/* line 178, ../sass/style.scss */
+/* line 204, ../sass/style.scss */
 .social_panel li {
   padding: 23px 0;
 }
 
-/* line 182, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 .footer {
   width: 100%;
   display: inline-block;
   background: #74cfd4;
   margin-top: 10px;
 }
-/* line 186, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .footer p {
   margin: 10px;
 }
@@ -200,7 +200,7 @@ ul {
 ABOUT US PAGE
 ************************
 */
-/* line 196, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .about_row {
   width: 80%;
   display: block;
@@ -209,7 +209,7 @@ ABOUT US PAGE
   padding-left: 0;
 }
 
-/* line 201, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .testimonial {
   width: 49%;
   float: right;
@@ -219,13 +219,13 @@ ABOUT US PAGE
   list-style: none;
   margin-bottom: 20px;
 }
-/* line 207, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .testimonial blockquote {
   padding-left: 90px;
   margin-bottom: 0;
 }
 
-/* line 212, ../sass/style.scss */
+/* line 238, ../sass/style.scss */
 .video {
   width: 50%;
   float: left;
@@ -234,7 +234,7 @@ ABOUT US PAGE
   position: relative;
   list-style: none;
 }
-/* line 217, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 .video img {
   display: block;
   margin-right: auto;
@@ -242,18 +242,18 @@ ABOUT US PAGE
   margin-top: 20px;
 }
 
-/* line 222, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 .witness {
   padding-left: 0;
   list-style: none;
 }
-/* line 226, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 .witness img {
   float: left;
   padding-left: 10px;
 }
 
-/* line 231, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 .company_info {
   width: 80%;
   display: block;
@@ -262,22 +262,22 @@ ABOUT US PAGE
   background: #74cfd4;
   clear: both;
 }
-/* line 237, ../sass/style.scss */
+/* line 263, ../sass/style.scss */
 .company_info p {
   padding: 10px 15px;
 }
-/* line 240, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 .company_info h2 {
   padding: 10px 15px;
 }
-/* line 243, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 .company_info a {
   color: white;
   text-decoration: none;
   font-size: 20px;
   font-style: italic;
 }
-/* line 249, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 .company_info a:hover {
   color: #d474c6;
 }
@@ -287,7 +287,7 @@ ABOUT US PAGE
 CONTACT US PAGE
 ************************
 */
-/* line 260, ../sass/style.scss */
+/* line 286, ../sass/style.scss */
 .contact_social_panel {
   float: right;
   width: 37%;
@@ -296,37 +296,37 @@ CONTACT US PAGE
   position: relative;
   list-style: none;
 }
-/* line 25, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .contact_social_panel ul {
   padding-left: 0;
 }
-/* line 29, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 .contact_social_panel li {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
-/* line 34, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .contact_social_panel i {
   font-size: 25px;
   margin: 0 20px;
 }
-/* line 38, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .contact_social_panel i:hover {
   color: #d474c6;
 }
-/* line 42, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .contact_social_panel a {
   text-decoration: none;
   font-size: 20px;
   color: white;
 }
-/* line 266, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 .contact_social_panel li {
   padding: 15px 0;
 }
 
-/* line 270, ../sass/style.scss */
+/* line 296, ../sass/style.scss */
 .contact_form {
   width: 62%;
   float: left;
@@ -335,34 +335,34 @@ CONTACT US PAGE
   position: relative;
   list-style: none;
 }
-/* line 275, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 .contact_form .text {
   padding-left: 10px;
 }
-/* line 278, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 .contact_form .text h2 {
   margin-top: 15px;
   text-decoration: underline;
 }
-/* line 283, ../sass/style.scss */
+/* line 309, ../sass/style.scss */
 .contact_form p {
   font-size: 18px;
   font-style: italic;
   margin-bottom: 8px;
 }
-/* line 288, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 .contact_form table {
   width: 100%;
 }
-/* line 291, ../sass/style.scss */
+/* line 317, ../sass/style.scss */
 .contact_form table .space {
   width: 150px;
 }
-/* line 294, ../sass/style.scss */
+/* line 320, ../sass/style.scss */
 .contact_form table .label {
   padding-top: 20px;
 }
-/* line 298, ../sass/style.scss */
+/* line 324, ../sass/style.scss */
 .contact_form textarea {
   width: 90%;
   height: 121px;
@@ -371,7 +371,7 @@ CONTACT US PAGE
   margin-right: auto;
   margin-left: auto;
 }
-/* line 304, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .contact_form .button {
   width: 25%;
   background: white;
@@ -385,7 +385,7 @@ CONTACT US PAGE
   margin-right: auto;
   margin-left: auto;
 }
-/* line 315, ../sass/style.scss */
+/* line 341, ../sass/style.scss */
 .contact_form .button:hover {
   background: #d474c6;
   color: white;

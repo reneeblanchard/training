@@ -39,6 +39,7 @@
 							<td class="label">What age are you?</td>
 						</tr>
 						<tr>
+						<!-- When using radio buttons you want to give them the same name, otherwise users will be able to select more then one, radio buttons are used if only one selection out of many are needed -->
 							<td class="space"></td>
 							<td><input type="radio" name="young"/>Under 18</td>
 							<td><input type="radio" name="18"/>18-30</td>
@@ -50,6 +51,7 @@
 						</tr>
 						<tr>
 							<td></td>
+							<!-- So you can see that if you has the under 18 selected and then selected male, the under 18 is no longer checked  -->
 							<td><input type="radio" name="young"/>Male</td>
 							<td><input type="radio" name="18"/>Female</td>
 							<td><input type="radio" name="31"/>Rather not say</td>
