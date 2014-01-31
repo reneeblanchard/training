@@ -20,6 +20,31 @@ $hover: #D474C6;
 MIXINS
 ************************
 */
+
+@mixin social{
+	ul{
+		padding-left: 0;
+	}
+
+	li {
+		list-style: none;
+		padding-left: 0;
+		margin: 0;
+		}
+	i{
+		font-size: 25px;
+		margin: 0 20px;
+
+		&:hover{
+			color: $hover;
+		}
+	}
+	a{
+		text-decoration: none;
+		font-size: 20px;
+		color: $font_col;
+	}
+}
 @mixin block{
 	display: block;
 	margin-right: auto;
@@ -36,17 +61,18 @@ MIXINS
 	display: inline-block;
 	background: $box_col;
 }
-
 /*
 ************************
-HOME PAGE
+NAV AND BODY
 ************************
 */
+
 body{
 	width:90%;
 	background-color: #FBFF94;
 	font-family: arial;
 	@include block;
+	color: $font_col;
 }
 .navbar{
 		@include head_foot;
@@ -55,6 +81,16 @@ body{
 		float:right;
 		margin:20px;
 		margin-top: 0;
+
+	.home_link{
+		color:$hover;
+	}
+	.about_link{
+		color:$hover;
+	}
+	.contact_link{
+		color:$hover;
+	}
 
 		a{
 			border-left: 1px solid $font_col;
@@ -71,12 +107,17 @@ body{
 	h1{
 		margin: 20px;
 		float:left;
-		color: $font_col;
 	}
 	h2{
 		margin:0;
 	}
 }
+
+/*
+************************
+HOME PAGE
+************************
+*/
 .image{
 	background: url(http://www.raising-happy-chickens.com/images/all-about-chickens.jpg);
 	@include block;
@@ -89,14 +130,12 @@ body{
 		top:160px;
 		background: rgba(116,207,212, .5);
 		padding-left: 10px;
-		color: $font_col;
 	}
 }
 .home_row{
 	@include block;
 	width:80%;
 	padding-left:0;
-	color:$font_col;
 }
 .home_info{
 	float:left;
@@ -134,42 +173,17 @@ body{
 	float:right;
 	width:33%;
 	@include panel;
-
-
-	ul{
-		padding-left: 0;
-	}
+	@include social;
 
 	li {
-		list-style: none;
-		padding-left: 0;
 		padding: 23px 0;
-		margin: 0;
 		}
-	i{
-		color: $font_col;
-		font-size: 25px;
-		margin: 0 20px;
-
-		&:hover{
-			color: $hover;
-		}
-	}
-	a{
-		text-decoration: none;
-		font-size: 20px;
-		color: $font_col;
-	}
-		&:hover{
-			border: 1px solid $font_col;
-		}
-	}
+}
 .footer{
 	@include head_foot;
 	margin-top: 10px;
 
 	p{
-		color: $font_col;
 		margin: 10px;
 	}
 }
@@ -179,26 +193,128 @@ body{
 ABOUT US PAGE
 ************************
 */
+.about_row{
+	width: 80%;
+	@include block;
+	padding-left: 0;
+}
 .testimonial{
 	width:49%;
 	float:right;
 	@include panel;
+	margin-bottom: 20px;
+
+	blockquote{
+		padding-left: 90px;
+		margin-bottom: 0;
+	}
 }
 .video{
 	width:50%;
 	float:left;
 	@include panel;
+
+	img{
+		@include block;
+		margin-top: 20px;
+	}
 }
 .witness{
 	padding-left: 0;
 	list-style: none;
+
+	img{
+		float: left;
+		padding-left: 10px;
+	}
 }
 .company_info{
 	width:80%;
 	@include block;
 	background: $box_col;
+	clear:both;
+
+	p{
+		padding: 10px 15px;
+	}
+	h2{
+		padding: 10px 15px;
+	}
+	a{
+		color: $font_col;
+		text-decoration: none;
+		font-size: 20px;
+		font-style: italic;
+
+		&:hover{
+				color: $hover;
+			}
+	}
 }
-.about_row{
-	width:80%;
-	@include block;
+/*
+************************
+CONTACT US PAGE
+************************
+*/
+
+.contact_social_panel{
+	float:right;
+	width:37%;
+	@include panel;
+	@include social;
+
+	li{
+		padding: 15px 0;
+	}
+}
+.contact_form{
+	width:62%;
+	float:left;
+	@include panel;
+
+	.text{
+	padding-left: 10px;
+
+	h2{
+		margin-top: 15px;
+		text-decoration: underline;
+	}
+	}
+	p{
+		font-size: 18px;
+		font-style: italic;
+		margin-bottom: 8px;
+	}
+	table{
+		width: 100%;
+
+		.space{
+			width:150px;
+		}
+		.label{
+			padding-top: 20px;
+		}
+	}
+	textarea{
+		width: 90%;
+		height: 121px;
+		margin-top: 10px;
+		@include block;
+	}
+	.button{
+		width: 25%;
+		background: $font_col;
+		text-align: center;
+		border-radius: 5px;
+		margin-top: 8px;
+		margin-bottom: 8px;
+		padding: 1px;
+		color: $hover;
+		@include block;
+
+		&:hover{
+			background: $hover;
+			color: $font_col;
+		}
+	}
 }
