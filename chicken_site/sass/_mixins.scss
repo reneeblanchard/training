@@ -1,0 +1,66 @@
+@mixin social{
+	// try to avoid targeting specific elements like ul>li>i>a etc. 
+	//this is for the social list so the ul could change to .social-list
+	// the li could be .social-list--item
+
+	//look at bem naming convention http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/
+
+	// follow this throughout your site with the markup and css, makes it a lot easier to read and figure out what 
+	// it is your styling
+	
+	ul{
+		padding-left: 0;
+	}
+
+	li {
+		list-style: none;
+		padding-left: 0;
+		margin: 0;
+	}
+	i{
+		font-size: 25px;
+		margin: 0 20px;
+
+		&:hover{
+			color: $hover;
+		}
+	}
+	a{
+		text-decoration: none;
+		font-size: 20px;
+		color: $font_col;
+	}
+}
+@mixin block{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+// for the panel styling by using a mixin you can add arguments allowing for better reuse-ability 
+// for example
+
+
+// @mixin panel($bg, $min-height, $position, $list-style) {
+// 	background: $bg;
+// 	min-height: $min-height;
+// 	position: $position;
+// 	list-style: $list-style;
+// }
+
+// then when including the mixin you can use it like this:
+
+// @include panel($box_col, 415px, relative, none);
+
+
+@mixin panel{
+	background: $box_col;
+	min-height:415px;
+	position: relative;
+	list-style: none;
+}
+@mixin head_foot{
+	width:100%;
+	display: inline-block;
+	background: $box_col;
+}

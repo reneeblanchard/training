@@ -1,0 +1,71 @@
+@import 'mixins';
+
+.image{
+	background: url(http://www.raising-happy-chickens.com/images/all-about-chickens.jpg);
+	@include block;
+	width:80%;
+	height:200px;
+
+	h2{
+		position: relative;
+		margin: 0;
+		top:160px;
+		background: rgba(116,207,212, .5);
+		padding-left: 10px;
+	}
+}
+.home_row{
+	@include block;
+	width:80%;
+	padding-left:0;
+}
+.home_info{
+	float:left;
+	width: 66%;
+	@include panel;
+
+	a{
+		text-decoration: none;
+		font-style: italic;
+		color:$font_col;
+
+		&:hover{
+			color: $hover;
+		}
+	}
+
+	h1{
+		padding:0 10px;
+		text-align: center;
+	}
+	p{
+		font-size: 20px;
+		padding: 0 10px;
+	}
+}
+ul{
+	padding-bottom: 10px;
+}
+.list_title{
+	margin-bottom: 0;
+	text-decoration: none;
+}
+
+.social_panel{
+	float:right;
+	width:33%;
+	@include panel;
+	@include social;
+
+	li {
+		padding: 23px 0;
+	}
+}
+.footer{
+	@include head_foot;
+	margin-top: 10px;
+
+	p{
+		margin: 10px;
+	}
+}

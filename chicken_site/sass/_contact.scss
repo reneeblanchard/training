@@ -1,0 +1,62 @@
+
+.contact_social_panel{
+	float:right;
+	width:37%;
+	@include panel;
+	@include social;
+
+	li{
+		padding: 15px 0;
+	}
+}
+.contact_form{
+	width:62%;
+	float:left;
+	@include panel;
+
+	.text{
+		padding-left: 10px;
+
+		h2{
+			margin-top: 15px;
+			text-decoration: underline;
+		}
+	}
+	p{
+		font-size: 18px;
+		font-style: italic;
+		margin-bottom: 8px;
+	}
+	table{
+		width: 100%;
+
+		.space{
+			width:150px;
+		}
+		.label{
+			padding-top: 20px;
+		}
+	}
+	textarea{
+		width: 90%;
+		height: 121px;
+		margin-top: 10px;
+		@include block;
+	}
+	.button{
+		width: 25%;
+		background: $font_col;
+		text-align: center;
+		border-radius: 5px;
+		margin-top: 8px;
+		margin-bottom: 8px;
+		padding: 1px;
+		color: $hover;
+		@include block;
+
+		&:hover{
+			background: $hover;
+			color: $font_col;
+		}
+	}
+}

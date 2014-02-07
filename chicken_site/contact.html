@@ -41,10 +41,10 @@
 						<tr>
 						<!-- When using radio buttons you want to give them the same name, otherwise users will be able to select more then one, radio buttons are used if only one selection out of many are needed -->
 							<td class="space"></td>
-							<td><input type="radio" name="young"/>Under 18</td>
-							<td><input type="radio" name="18"/>18-30</td>
-							<td><input type="radio" name="31"/>31-60</td>
-							<td><input type="radio" name="60"/>60+</td>
+							<td><input type="radio" name="age"/>Under 18</td>
+							<td><input type="radio" name="age"/>18-30</td>
+							<td><input type="radio" name="age"/>31-60</td>
+							<td><input type="radio" name="age"/>60+</td>
 						</tr>
 						<tr>
 							<td class="label">What gender are you?</td>
@@ -52,10 +52,10 @@
 						<tr>
 							<td></td>
 							<!-- So you can see that if you has the under 18 selected and then selected male, the under 18 is no longer checked  -->
-							<td><input type="radio" name="young"/>Male</td>
-							<td><input type="radio" name="18"/>Female</td>
-							<td><input type="radio" name="31"/>Rather not say</td>
-							<td><input type="radio" name="60"/>Other</td>
+							<td><input type="radio" name="gender" id="gender"/><label for="gender">Male</label></td>
+							<td><input type="radio" name="gender"/>Female</td>
+							<td><input type="radio" name="gender"/>Rather not say</td>
+							<td><input type="radio" name="gender"/>Other</td>
 						</tr>
 					</table>
 					<textarea name="project" id="info" cols="30" rows="10" placeholder="Leave us a comment..."></textarea>

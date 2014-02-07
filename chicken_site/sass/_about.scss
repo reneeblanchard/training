@@ -1,0 +1,61 @@
+.about_row{
+	width: 80%;
+	@include block;
+	padding-left: 0;
+}
+.testimonial{
+	width:49%;
+	float:right;
+	@include panel;
+	margin-bottom: 20px;
+		h2{
+			padding-left: 5px;
+		}
+
+	blockquote{
+		padding-left: 90px;
+		margin-bottom: 0;
+	}
+}
+.video{
+	width:50%;
+	float:left;
+	@include panel;
+
+	img{
+		@include block;
+		margin-top: 20px;
+	}
+}
+.witness{
+	padding-left: 0;
+	list-style: none;
+
+	img{
+		float: left;
+		padding-left: 10px;
+	}
+}
+.company_info{
+	width:80%;
+	@include block;
+	background: $box_col;
+	clear:both;
+
+	p{
+		padding: 10px 15px;
+	}
+	h2{
+		padding: 10px 15px;
+	}
+	a{
+		color: $font_col;
+		text-decoration: none;
+		font-size: 20px;
+		font-style: italic;
+
+		&:hover{
+			color: $hover;
+		}
+	}
+}
