@@ -1,0 +1,124 @@
+body {
+  background: #cccccc;
+  font-family: 'Actor', sans-serif;
+}
+.panel{
+	background: #336699;
+}
+.body{
+	margin-top: 10px;
+}
+.name, .title{
+ 	color: #ccc;
+}
+.smlinks{
+	display: inline;
+	list-style: none;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+.facebook, .twitter, .google, .linkedin{
+	padding-bottom:20px;
+	color: white;
+	display: inline;
+}
+.foundicon-facebook:hover, .foundicon-twitter:hover, .foundicon-google-plus:hover, .foundicon-linkedin:hover{
+	border: 1px solid white;
+}
+.foundicon-mail, .foundicon-phone, .email-add, .phone-num{
+	color: #D5A725;
+}
+.email-add:hover, .phone-num:hover{
+	color: white;
+}
+.foundicon-facebook, .foundicon-twitter, .foundicon-google-plus, .foundicon-linkedin, .foundicon-youtube{
+	padding: 6px 20px;
+	width:20px;
+	font-size: 20px;
+	color: white;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+.foundicon-facebook {
+  background-color: #23476A;
+}
+.foundicon-twitter {
+  background-color: #00ABF0;
+}
+.foundicon-google-plus {
+  background-color: #A92A24;
+}
+.foundicon-linkedin {
+  background-color: black;
+}
+.hobbies, .video{
+	border-bottom: 2px solid #CCC;
+	padding: 0 10px;
+}
+.video, .background{
+	padding: 10px 10px;
+}
+.hobbies-list{
+	list-style: none;
+}
+.dropdown-label{
+	padding-bottom: 5px;
+	margin:0;
+}
+.quote{
+	background: url(http://digitalizemoments.files.wordpress.com/2012/01/3-11.jpg);
+}
+blockquote{
+	border:0;
+	font-size: 20px;
+	font-style: italic;
+	color: #cccccc;
+	background: rgba(0, 0, 0, 0.5);
+}
+.footer, .header{
+	background: #036;
+	color: #CCC;
+	padding: 0 10px;
+}
+.footer{
+	text
+}
+/*.columns{
+	background: #f4f4f4;
+	border:1px #eee solid;
+}
+/*.test{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.renee{
+	padding-bottom: 20px;
+}
+.elephant{
+	padding-bottom: 20px;
+}*//*
+img{
+	width: 200px;
+	height:200px;
+}
+.image {
+  background: url(http://www.raising-happy-chickens.com/images/all-about-chickens.jpg);
+}
+.home2{
+	margin-top: 20px;
+}
+.home_page_info{
+	padding: 15px;
+}
+
+.social_links{
+	list-style: none;
+	font-size: 20px;
+	margin: 0;
+}
+*/
+
+/*.facebook{
+	padding-top: 20px;
+}
+*/
