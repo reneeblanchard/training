@@ -1,0 +1,16 @@
+.company-logo {
+    max-width: 100%;
+    min-height: 130px;
+    background-image: url('company-logo.jpeg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 5px;
+}
+
+.mailto {
+	list-style: none;
+}
+
+.footer{
+	background: red;
+}
