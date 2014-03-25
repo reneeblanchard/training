@@ -13,4 +13,12 @@
 
 .footer{
 	background: red;
+	margin-bottom:50px;
+}
+
+.orbit{
+	width:auto;
+}
+.orbit_img{
+	margin: 0 auto;
 }
