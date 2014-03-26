@@ -100,8 +100,8 @@ iframe{
 /*******************
 **** Footer  ****
 *******************/
-.columns{
-	border:solid 1px red;
+.footer .columns{
+	padding-left: 0;
 }
 .footer{
 	position:absolute;
@@ -111,19 +111,25 @@ iframe{
 	background: #333;
 	margin-bottom:50px;
 }
+.footer ul{
+	margin-left: 0;
+	margin-bottom: 0;
+}
 .name{
 	color:white;
 	list-style: none;
-	float: left;
-	margin-left: 0;
+	margin-left: 8px;
+	font-size: 12px;
 }
 .mailto{
 	list-style: none;
-	padding-top:15px;
+	padding-top:0;
+	padding-bottom: 0px;
 	padding-right: 20px;
 }
 .mailto a{
 	color: white;
+	float: right;
 }
 .mailto a:hover{
 	color:green;
