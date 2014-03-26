@@ -11,12 +11,15 @@ body{
     background-position: center;
     padding-bottom: 5px;
 }
-
 .top-bar-section ul li > a{
 	font-size: 1.0rem;
 }
 .top-bar-section ul li:hover:not(.has-form) > a {
 	color: green;
+}
+
+.off-canvas-list {
+	clear:both;
 }
 
 
@@ -26,10 +29,10 @@ body{
 
 .orbit{
 	width:auto;
-	padding-top:10px;
 }
 .orbit_img{
 	margin: 0 auto;
+	padding-top:15px;
 }
 
 .orbit-slide-number {
@@ -51,6 +54,12 @@ body{
 .spain-link{
 	color: green;
 }
+.spain-info{
+	list-style: none;
+}
+.address{
+	list-style: none;
+}
 
 /*******************
 *** Prices Page ***
@@ -63,7 +72,9 @@ table th{
 	font-style: italic;
 	margin-bottom: 0; 
 }
-
+.price-heading{
+	padding-top: 15px;
+}
 
 /*******************
 **** Rules Page ****
@@ -92,8 +103,8 @@ table th{
 }
 
 iframe{
-	height: 500px;
-	width:600px;
+/*	height: 500px;
+	width:400px;*/
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
@@ -117,7 +128,7 @@ iframe{
 	color:white;
 	list-style: none;
 	padding-left: 10px;
-	padding-top: 4px;
+	padding-top: 8px;
 	font-size: 12px;
 }
 .mailto{

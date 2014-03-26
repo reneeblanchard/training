@@ -9,30 +9,53 @@
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/2.0/stylesheets/general_foundicons.css">
     <script src="js/vendor/modernizr.js"></script>
   </head>
-  <body>
+<body>
     <div class="row">
       <div class="large-12 columns text-center company-logo">
       </div>
     </div>
-    <div class="row">
-      <nav class="top-bar" data-topbar>
-        <ul class="title-area">
-          <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-        </ul>
-        <section class="top-bar-section">
-          <ul class="right">
-            <li class="Home"><a href="penfold.html">Home</a></li>
-            <li class="Prices"><a href="price.html">Prices</a></li>
-            <li class="Course Rules"><a href="rules.html">Course Rules</a></li>
-            <li class="Contact Us"><a href="contact.html">Contact Us</a></li>
+    <div class="row show-for-medium-up">
+      <div class="small-12 columns">
+        <nav class="top-bar" data-topbar data-option='is_hover:false'>
+          <ul class="title-area">
+            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
           </ul>
-        </section>
-      </nav> <br />
+          <section class="top-bar-section">
+            <ul class="right">
+              <li class="Home"><a href="penfold.html">Home</a></li>
+              <li class="Prices"><a href="price.html">Prices</a></li>
+              <li class="Course Rules"><a href="rules.html">Course Rules</a></li>
+              <li class="Contact Us"><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </section>
+        </nav>
+      </div>
+    </div>
+    <div class="row show-for-small-only">
+      <div class="small-12 columns">
+        <nav class="top-bar" data-topbar data-option='is_hover:false'>
+          <ul class="title-area">
+            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+          </ul>
+          <section class="top-bar-section">
+            <ul class="right">
+              <li class="has-dropdown">
+                <a href="#">Menu</a>
+                <ul class="dropdown">
+                  <li class="Home"><a href="penfold.html">Home</a></li>
+                  <li class="Prices"><a href="price.html">Prices</a></li>
+                  <li class="Course Rules"><a href="rules.html">Course Rules</a></li>
+                  <li class="Contact Us"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </ul>
+          </section>
+        </nav>
+      </div>
     </div>
     <div class="row">
-      <div class="small-12 columns">Please find all, up-to-date prices in the tables below:</div>
+      <div class="small-12 columns price-heading">Please find all, up-to-date prices in the tables below:</div>
     </div>
-    <br />
+
    <div class="row">
       <table class="text-center nine-holes" align="center">
         <thead>
@@ -101,10 +124,8 @@
     </div>
     <div class="row">
       <div class="small-12 columns">
-        <br />
         <h4 class="text-center satSpecial">Saturday Special!!</h4>
           <h6 class="text-center">One Adult + One Junior</h6>
-          <br /> 
           <div class="row">
             <table class="text-center" align="center">
               <thead>
