@@ -43,7 +43,9 @@ body{
 .orbit-container .orbit-next > span{
 	border-left-color: green;
 }
-
+/*******************
+**** Home Page ****
+*******************/
 
 .spain-link{
 	color: green;
@@ -98,14 +100,22 @@ iframe{
 /*******************
 **** Footer  ****
 *******************/
+.columns{
+	border:solid 1px red;
+}
 .footer{
 	position:absolute;
 	position: relative;
-	margin-top: -150px; /* negative value of footer height */
-/*	height: 150px;*/
+	margin-top: -150px;
 	clear:both;
 	background: #333;
 	margin-bottom:50px;
+}
+.name{
+	color:white;
+	list-style: none;
+	float: left;
+	margin-left: 0;
 }
 .mailto{
 	list-style: none;
@@ -114,6 +124,9 @@ iframe{
 }
 .mailto a{
 	color: white;
+}
+.mailto a:hover{
+	color:green;
 }
 .mailto i{
 	padding-right: 5px;
