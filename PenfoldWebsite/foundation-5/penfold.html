@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
     <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/2.0/stylesheets/general_foundicons.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/2.0/stylesheets/general_foundicons.css" />
 
 
     <script src="js/vendor/modernizr.js"></script>
@@ -17,12 +17,39 @@
       <div class="large-12 columns text-center company-logo">
       </div>
     </div>
-    <div class="row">
-      <nav class="top-bar" data-topbar>
+
+    <div class="off-canvas-wrap show-for-small-only">
+      <div class="inner-wrap">
+      <nav class="tab-bar">
+        <section class="left-small">
+          <a class="left-off-canvas-toggle menu-icon"><span></span></a>
+        </section>
+      </nav>
+      <aside class="left-off-canvas-menu">
+        <ul class="off-canvas-list">
+          <li>
+            <label>Menu</label>
+          </li>
+          <li>
+            <a href="price.html">Number 1</a> 
+          </li>
+          <li>
+            <a href="#">Number 2</a> 
+          </li>
+        </ul>
+      </aside>
+      <a class="exit-off-canvas"></a>
+      </div>
+      </div>
+
+
+
+    <div class="row show-for-medium-up">
+      <div class="small-12 columns">
+      <nav class="top-bar" data-topbar data-option='is_hover:false'>
         <ul class="title-area">
           <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
         </ul>
-
         <section class="top-bar-section">
           <ul class="right">
             <li class="Home"><a href="penfold.html">Home</a></li>
@@ -32,6 +59,7 @@
           </ul>
         </section>
       </nav> <br />
+    </div>
     </div>
 
     <div class="row">
