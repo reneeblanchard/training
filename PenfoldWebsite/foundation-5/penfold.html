@@ -7,61 +7,51 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/2.0/stylesheets/general_foundicons.css" />
-
-
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    
     <div class="row">
       <div class="large-12 columns text-center company-logo">
       </div>
     </div>
-
-    <div class="off-canvas-wrap show-for-small-only">
-      <div class="inner-wrap">
-      <nav class="tab-bar">
-        <section class="left-small">
-          <a class="left-off-canvas-toggle menu-icon"><span></span></a>
-        </section>
-      </nav>
-      <aside class="left-off-canvas-menu">
-        <ul class="off-canvas-list">
-          <li>
-            <label>Menu</label>
-          </li>
-          <li>
-            <a href="price.html">Number 1</a> 
-          </li>
-          <li>
-            <a href="#">Number 2</a> 
-          </li>
-        </ul>
-      </aside>
-      <a class="exit-off-canvas"></a>
-      </div>
-      </div>
-
-
-
     <div class="row show-for-medium-up">
       <div class="small-12 columns">
-      <nav class="top-bar" data-topbar data-option='is_hover:false'>
-        <ul class="title-area">
-          <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-        </ul>
-        <section class="top-bar-section">
-          <ul class="right">
-            <li class="Home"><a href="penfold.html">Home</a></li>
-            <li class="Prices"><a href="price.html">Prices</a></li>
-            <li class="Course Rules"><a href="rules.html">Course Rules</a></li>
-            <li class="Contact Us"><a href="contact.html">Contact Us</a></li>
+        <nav class="top-bar" data-topbar data-option='is_hover:false'>
+          <ul class="title-area">
+            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
           </ul>
-        </section>
-      </nav> <br />
+          <section class="top-bar-section">
+            <ul class="right">
+              <li class="Home"><a href="penfold.html">Home</a></li>
+              <li class="Prices"><a href="price.html">Prices</a></li>
+              <li class="Course Rules"><a href="rules.html">Course Rules</a></li>
+              <li class="Contact Us"><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </section>
+        </nav>
+      </div>
     </div>
+    <div class="row show-for-small-only">
+      <div class="small-12 columns">
+        <nav class="top-bar" data-topbar data-option='is_hover:false'>
+          <ul class="title-area">
+            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+          </ul>
+          <section class="top-bar-section">
+            <ul class="right">
+              <li class="has-dropdown">
+                <a href="#">Menu</a>
+                <ul class="dropdown">
+                  <li class="Home"><a href="penfold.html">Home</a></li>
+                  <li class="Prices"><a href="price.html">Prices</a></li>
+                  <li class="Course Rules"><a href="rules.html">Course Rules</a></li>
+                  <li class="Contact Us"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </ul>
+          </section>
+        </nav>
+      </div>
     </div>
-
     <div class="row">
       <div class="small-12 medium-6 small-centered columns">
         <ul class="orbit" data-orbit>
@@ -83,7 +73,6 @@
         </ul>
       </div>
     </div>
-
     <div class="row">
       <div class="small-12 columns text-center"> 
         <h1>Penfold Park Golf Course</h1>
@@ -94,19 +83,19 @@
     <div class="row">
       <div class="small-12 columns text-center">
         <h2>Where to find us?</h2>
-        <p>St Albans Road
-          <br>Watford
-          <br>Hertfordshire
-          <br>WD25 0GB
-        </p>
+        <ul class="address">
+          <li>St Albans Road</li> 
+          <li>Watford</li>
+          <li>Hertfordshire</li>
+          <li>WD95 0GB</li>
+        </ul>
       </div>
     </div>
-    <br />
     <div class="row">
-      <div class="small-12 columns text-center"> 
-        <p>Holiday apartment to rent - Spain, Costa Del Sol
-        <br><a class="spain-link" href="http://www.penfoldparkgolfcourse.co.uk/apartment/"> Click here for more information!</a></br></p> 
-      </div>
+      <ul class="small-12 columns text-center spain-info"> 
+        <li>Holiday apartment to rent - Spain, Costa Del Sol</li>
+        <li><a class="spain-link" href="http://www.penfoldparkgolfcourse.co.uk/apartment/"> Click here for more information!</a></li> 
+      </ul>
     </div>
     <div class="row footer">
       <ul class="small-12 columns">
@@ -117,29 +106,7 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
-      $(document).foundation();
+    $(document).foundation();
     </script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
