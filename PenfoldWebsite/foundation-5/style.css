@@ -1,0 +1,90 @@
+body{
+	font-family: arial;
+	min-height: 600px;
+}
+
+.company-logo {
+    max-width: 100%;
+    min-height: 130px;
+    background-image: url('company-logo.jpeg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 5px;
+}
+
+.top-bar-section ul li > a{
+	font-size: 1.0rem;
+}
+
+
+/*******************
+*** Orbit SLider ***
+*******************/
+
+.orbit{
+	width:auto;
+}
+.orbit_img{
+	margin: 0 auto;
+}
+
+.orbit-slide-number {
+	display: none;
+}
+.orbit-timer{
+	display:none;
+}
+.orbit-container .orbit-prev > span{
+	border-right-color: green;
+}
+.orbit-container .orbit-next > span{
+	border-left-color: green;
+}
+
+/*******************
+*** Prices Page ***
+*******************/
+
+table th{
+	background-color: rgb(192, 192, 192);
+}
+.satSpecial{
+	font-style: italic;
+	margin-bottom: 0; 
+}
+
+
+/*******************
+**** Rules Page ****
+*******************/
+
+.rules-list{
+	list-style: none;
+}
+
+/*******************
+*** Contact Page ***
+*******************/
+
+.contact-list{
+	list-style: none;
+}
+
+/*******************
+**** Footer  ****
+*******************/
+.footer{
+	background: #333;
+	margin-bottom:50px;
+}
+.mailto{
+	list-style: none;
+	padding-top:15px;
+	padding-right: 20px;
+}
+.mailto a{
+	color: white;
+}
+.mailto i{
+	padding-right: 5px;
+}
